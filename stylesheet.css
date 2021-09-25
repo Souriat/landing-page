@@ -2,3 +2,57 @@ html {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 300;
+    transition: color 0.5s ease;
+}
+
+a:hover {
+    color: #adadad;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.header-container {
+    background: #1F2937;
+    outline: red solid 2px; 
+    outline-offset: -2px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    
+}
+
+.header-logo {
+    font-size: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin: 0px;
+    padding: 0px;
+}
+
