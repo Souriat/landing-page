@@ -8,7 +8,6 @@ body {
     padding: 0px;
 }
 
-
 article {
     min-height: 100%;
     display: flex;
@@ -68,19 +67,12 @@ a {
     color: #FFFFFF;
 }
 
-.blue-back {
-    /* background: #1F2937; */
+.red-back {
     background: #5b1917;
 }
 
-.light-blue {
-    /* background: #3882F6; */
+.light-red {
     background: #C30500;
-}
-
-.outline {
-    outline: red solid 2px; 
-    outline-offset: -2px;
 }
 
 .position {
@@ -164,7 +156,6 @@ img {
 }
 
 .button:hover {
-    /* background: #2f70d8; */
     background: #8B0400;
 }
 
@@ -191,7 +182,6 @@ img {
     height: auto;
     display: block;
     border-radius: 10px;
-    /* outline: #3882F6 solid 2px; */
     outline: #5b1917 solid 2px;
     line-height: 150px;
 }
@@ -271,6 +261,17 @@ img {
 .footer-container {
     background: #5b1917;
     text-align: center;
-    padding: 20px;
+    padding-bottom: 15px;
+    padding-top: 5px;
     font-size: 15px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+footer a:hover{
+    color:hsl(0, 0%, 80%)
 }
