@@ -69,11 +69,13 @@ a {
 }
 
 .blue-back {
-    background: #1F2937;
+    /* background: #1F2937; */
+    background: #5b1917;
 }
 
 .light-blue {
-    background: #3882F6;
+    /* background: #3882F6; */
+    background: #C30500;
 }
 
 .outline {
@@ -110,7 +112,7 @@ ul {
 
 .b1-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -162,7 +164,8 @@ img {
 }
 
 .button:hover {
-    background: #2f70d8;
+    /* background: #2f70d8; */
+    background: #8B0400;
 }
 
 .b2-top {
@@ -188,7 +191,8 @@ img {
     height: auto;
     display: block;
     border-radius: 10px;
-    outline: #3882F6 solid 2px;
+    /* outline: #3882F6 solid 2px; */
+    outline: #5b1917 solid 2px;
     line-height: 150px;
 }
 
@@ -212,7 +216,7 @@ img {
 .quote-author {
     font-size: 18px;
     text-align: end;
-    margin-top: -30px;
+    margin-top: -20px;
     margin-right: 20px;
 }
 
@@ -225,7 +229,7 @@ img {
 }
 
 .b4-box {
-    background: #3882f6;
+    background: #C30500;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -252,7 +256,7 @@ img {
 
 
 .b4-button:hover {
-    background: hsl(217, 91%, 55%);
+    background: #8B0400;
 }
 
 .b4-title {
@@ -265,7 +269,7 @@ img {
 }
 
 .footer-container {
-    background: #1F2937;
+    background: #5b1917;
     text-align: center;
     padding: 20px;
     font-size: 15px;
