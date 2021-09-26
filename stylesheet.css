@@ -246,7 +246,10 @@ img {
     font-size: 14px;
     outline: white solid 2px;
     transition: background 0.2s ease;
-    }
+    flex-wrap: nowrap;
+    display: flex;
+    min-width: 50px;
+}
 
 
 .b4-button:hover {
