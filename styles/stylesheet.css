@@ -13,12 +13,6 @@ article {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    
-}
-
-header,
-footer {
-    flex-shrink: 1;
 }
 
 .main {
@@ -33,14 +27,12 @@ footer {
 
 a {
     text-decoration: none;
- 
 }
 
 .header-link {
     color: hsl(0, 0%, 80%);
     transition: color 0.2s ease;
     font-size: 15px;
-    
 }
 
 .header-link:hover {
@@ -60,7 +52,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-       
 }
 
 .white-text {
