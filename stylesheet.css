@@ -40,7 +40,7 @@ a {
 .header-link {
     color: hsl(0, 0%, 80%);
     transition: color 0.2s ease;
-    font-size: 12px;
+    font-size: 15px;
     
 }
 
@@ -89,7 +89,7 @@ a {
 }
 
 .header-logo {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 ul {
@@ -151,7 +151,7 @@ img {
 
 .button {
     border-radius: 8px;
-    padding: 8px 25px;
+    padding: 8px 40px;
     border: 0px;
     font-weight: 700;
     font-size: 14px;
@@ -182,7 +182,6 @@ img {
 }
 
 .b2-images img {
-    background-color: aqua;
     width: 100%;
     height: auto;
     display: block;
@@ -216,5 +215,57 @@ img {
     margin-right: 20px;
 }
 
+.b4-container {
+    display: flex;
+    min-height: 280px;
+    text-align: left;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.b4-box {
+    background: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    min-height: 150px;
+    border-radius: 10px;
+       
+}
+
+.b4-button {
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    outline: white solid 2px;
+    transition: background 0.2s ease;
+    }
 
 
+.b4-button:hover {
+    background: hsl(217, 91%, 55%);
+}
+
+.b4-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.b4-text {
+    margin-top: -20px;
+}
+
+.footer-container {
+    background: #1F2937;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+
+}
