@@ -1,0 +1,277 @@
+html,
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+article {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    
+}
+
+header,
+footer {
+    flex-shrink: 1;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+header,
+.main,
+footer {
+    flex-shrink: 0;
+}
+
+a {
+    text-decoration: none;
+ 
+}
+
+.header-link {
+    color: hsl(0, 0%, 80%);
+    transition: color 0.2s ease;
+    font-size: 15px;
+    
+}
+
+.header-link:hover {
+    color: #adadad;
+}
+
+.w700 {
+    font-weight: 700;
+}
+
+.b1-text {
+    margin-top: 5px;
+    color: hsl(0, 0%, 80%);
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+       
+}
+
+.white-text {
+    color: #FFFFFF;
+}
+
+.red-back {
+    background: #5b1917;
+}
+
+.light-red {
+    background: #C30500;
+}
+
+.position {
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header-logo {
+    padding-top: 5px;
+    font-size: 25px;
+    font-family: 'Sedgwick Ave Display', 'Roboto Condensed', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.content-size {
+    height: 30vw;
+    max-height: 300px;
+    min-height: 250px;
+}
+
+.b1-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.b1-left,
+.b1-img{
+    margin-top: 40px; 
+    margin-bottom: 40px;
+}
+
+.b1-left {
+    margin-right: 80px;
+    min-width: 300px;
+    max-width: 450px;
+}
+
+.b1-img {
+    background: grey;
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 183px;
+    max-height: 250px;
+    min-width: 300px;
+    line-height: 183px;
+    border-radius: 10px;
+    outline: hsl(0, 0%, 40%) solid 0.5px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    max-width: 380px;
+}
+
+img {
+    text-align: center;
+    font-size: 20px;
+}
+
+.button {
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.button:hover {
+    background: #8B0400;
+}
+
+.b2-top {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    font-size: 25px;
+    flex-wrap: nowrap;
+}
+
+.b2-images {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.b2img-text {
+    color: hsl(0, 0%, 20%);
+}
+
+.b2-images img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    outline: #5b1917 solid 2px;
+    line-height: 150px;
+}
+
+.b2-sub {
+    max-width: 150px;
+    text-align: center;  
+}
+
+.b3-container {
+    background: #E5E7EB;
+    display: flex;
+    min-height: 280px;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-size: 25px;
+    font-style: italic;
+    color: hsl(0, 0%, 30%);
+}
+
+.quote-author {
+    font-size: 18px;
+    text-align: end;
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.b4-container {
+    display: flex;
+    min-height: 280px;
+    text-align: left;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.b4-box {
+    background: #C30500;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 10px;
+    min-height: 150px;
+    border-radius: 10px;
+}
+
+.b4-button {
+    flex-shrink: 0;
+    border-radius: 8px;
+    padding: 8px 40px;
+    border: 0px;
+    font-weight: 700;
+    font-size: 14px;
+    outline: white solid 2px;
+    transition: background 0.2s ease;
+    flex-wrap: nowrap;
+    display: flex;
+    min-width: 50px;
+}
+
+
+.b4-button:hover {
+    background: #8B0400;
+}
+
+.b4-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.b4-text {
+    margin-top: -20px;
+}
+
+.footer-container {
+    background: #5b1917;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    font-size: 15px;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+footer a:hover{
+    color:hsl(0, 0%, 80%)
+}
